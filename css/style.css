@@ -385,7 +385,7 @@ body {
 
 .hero {
   display: flex;
-  max-width: var(--sm--container--width);
+  max-width: var(--bg--container--width);
   /* margin: auto; */
   position: relative;
   /* z-index: 2; */

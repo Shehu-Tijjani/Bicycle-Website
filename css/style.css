@@ -215,6 +215,7 @@ body {
   overflow: hidden;
   padding: 0 var(--bg--container--padding);
   display: grid;
+  justify-content: center;
 }
 
 /* NAVIGATION */
@@ -385,12 +386,10 @@ body {
 
 .hero {
   display: flex;
-  max-width: var(--bg--container--width);
+  max-width: var(--sm--container--width);
   /* margin: auto; */
   position: relative;
   /* z-index: 2; */
-  height: 100%;
-  align-items: flex-end;
   align-items: center;
 }
 

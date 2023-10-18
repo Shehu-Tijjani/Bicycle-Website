@@ -1,6 +1,5 @@
 "use strict";
 
-// HAMBURGER 🍔🍔🍔
 const hamburger = document.querySelector(".hamburger");
 const hamburgerWrap = document.querySelector(".hamburger__wrap");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
@@ -13,7 +12,7 @@ const hamShadow = document.querySelector(".ham__backshadow");
 const header = document.querySelector(".header");
 const productLikeBtn = document.querySelectorAll(".products__icon");
 
-// clicking products like button
+// clicking products like-button
 productLikeBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
     btn.classList.toggle("products-liked");
@@ -146,11 +145,8 @@ const HamBurgerFunction = function () {
       anim = true;
 
       // dismiss HAMBURGER slide out
-      // hamburgerMenu.style.transform = "translateX(-140%)";
       hamburgerMenu.style.transform = "translateX(-140%)";
     }
-
-    // the condition above happens only after the hamcondition has been made false
 
     // switching click condition
     hamClickCondition = !hamClickCondition;
@@ -161,7 +157,7 @@ const HamBurgerFunction = function () {
     if (anim) hamStrp.classList.add("ham-hover-anim");
   };
 
-  // HAM INITIATOR 🎯🎯🎯🎯🎯
+  // HAM INITIATOR
   const initiateHam = function (e) {
     addHamShadow();
     // HAM LOGO SLIDE INTO VIEW
